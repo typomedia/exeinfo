@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit backupGlobals="false" colors="true" bootstrap="vendor/autoload.php" failOnWarning="true">
+    <testsuites>
+        <testsuite name="Unit Test Suite">
+            <file>tests/ExeinfoTest.php</file>
+            <file>tests/ExceptionTest.php</file>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>src</directory>
+        </whitelist>
+    </filter>
+</phpunit>
